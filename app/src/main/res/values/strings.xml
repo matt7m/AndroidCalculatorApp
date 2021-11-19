@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="Simple"> Simple </string>
+    <string name="Advanced"> Advanced </string>
+    <string name="About"> About </string>
+    <string name="exit"> Exit </string>
+    <string name="calculator"> Calculator </string>
+    <string name="author"> Author: </string>
+</resources>
