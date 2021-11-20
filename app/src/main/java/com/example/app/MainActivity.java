@@ -40,6 +40,5 @@ public class MainActivity extends AppCompatActivity {
             finish();
             System.exit(0);
         });
-
     }
 }
