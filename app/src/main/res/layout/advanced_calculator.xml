@@ -55,7 +55,7 @@
                 android:layout_height="60dp"
                 android:id="@+id/bt_back"
                 app:layout_row="0" app:layout_column="0"
-                android:background="@drawable/rounded_button2"/>
+                android:background="@drawable/rounded_button"/>
         <Button
                 android:text="3"
                 android:layout_width="95dp"
