@@ -19,7 +19,7 @@ public class AboutInfoActivity extends AppCompatActivity {
         appName.setText("'Android Calculator App'");
 
         appAuthor = findViewById(R.id.author_text);
-        appAuthor.setText("Mateusz Murawski");
+        appAuthor.setText("Author: Mateusz Murawski");
 
         appDescription = findViewById(R.id.description);
         appDescription.setText("Simple and advanced calculator application developed on Android.");
