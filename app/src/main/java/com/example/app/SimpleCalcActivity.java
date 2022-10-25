@@ -85,7 +85,7 @@ public class SimpleCalcActivity extends AppCompatActivity {
         }
 
         String temp = "";
-        for(int i = equation.length() - 1; i > 0; i--){
+        for (int i = equation.length() - 1; i > 0; i--){
             if (equation.charAt(i) == '/'){
                 temp = equation.substring(i+1);
                 double tempDouble = Double.parseDouble(temp);
@@ -157,7 +157,10 @@ public class SimpleCalcActivity extends AppCompatActivity {
 
     public void setEquationValue(String value) {
         equationView.clearComposingText();
-        equationView.setText(value);
+        if (value.equals(""))
+            equationView.setText(value);
+        else
+            equationView.setText(value + "=");
     }
 
     public void setResultValue(String value) {

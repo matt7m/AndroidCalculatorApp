@@ -270,7 +270,10 @@ public class AdvancedCalcActivity extends AppCompatActivity {
 
     public void setEquationValue(String value) {
         equationView.clearComposingText();
-        equationView.setText(value);
+        if (value.equals(""))
+            equationView.setText(value);
+        else
+            equationView.setText(value + "=");
     }
 
     public void setResultValue(String value) {
