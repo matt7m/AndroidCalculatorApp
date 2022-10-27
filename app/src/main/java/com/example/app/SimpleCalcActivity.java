@@ -16,6 +16,7 @@ public class SimpleCalcActivity extends AppCompatActivity {
     TextView resultView;
 
     String equation = "";
+    int result = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
